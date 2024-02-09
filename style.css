@@ -1,0 +1,175 @@
+/*---------
+cores a ser usadaas
+#2FA2EB
+#322FEB
+#336AEA
+#34DEEB
+----------------*/
+
+.cor1-tex {
+  color: #2fa2eb;
+}
+.cor2-tex {
+  color: #322feb;
+}
+.cor3-tex {
+  color: #336aea;
+}
+.cor4-tex {
+  color: #34deeb;
+}
+.cor5-tex {
+  color: #7234eb;
+}
+/*-------------------------*/
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  background: white;
+}
+
+/*-------------------------*/
+/* nav */
+.navbar {
+  background-color: #336aea;
+  font-weight: 700;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  color: #34deeb;
+}
+.nav-link {
+  color: white;
+}
+
+.btn-spec {
+  background-color: white;
+  color: #2fa2eb;
+  border: 1px;
+}
+
+.container-fluid button:hover {
+  background-color: white;
+  color: #336aea;
+  border: 1px solid white;
+}
+
+.container button:active {
+  background-color: white;
+}
+.container-fluid .navbar-brand p {
+  display: inline;
+  position: relative;
+  top: 3.5px;
+}
+.container-fluid img {
+  height: 40px;
+  width: 40px;
+  margin: 1px;
+}
+.arco {
+  padding: 0.2em 10em;
+  background: linear-gradient(160deg, red, yellow, blue, green, purple);
+  display: flex;
+  position: relative;
+  top: 4em;
+}
+/* Estilos para telas menores (por exemplo, dispositivos móveis) */
+
+/*-------------------------*/
+/*carousel */
+.carousel-item img {
+  margin-top: 4em;
+  height: 37rem;
+  padding: 1.3rem;
+  border-radius: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-item img {
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 33px;
+  }
+}
+
+/*-------------card-----------*/
+.card-group {
+  padding: 2em;
+}
+.prod {
+  width: 76em;
+  margin: 10px;
+}
+.card-body {
+  background-color: white;
+}
+.preco {
+  display: inline;
+}
+
+.prod h5 {
+  text-align: center;
+  display: block;
+}
+
+.box-preco {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+.prod .preco span {
+  font-weight: 700;
+  font-size: 1.3em;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.prod .preco p {
+  font-weight: 200;
+  text-decoration: line-through;
+  text-align: center;
+  font-size: 1em;
+}
+.prod .btn {
+  display: block;
+  width: 7em;
+  height: 2.3em;
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .prod {
+    width: auto;
+    margin: auto;
+  }
+  .col {
+    width: 12em;
+    padding: auto;
+    display: inline;
+  }
+  .preco {
+    text-align: center;
+    display: block;
+  }
+  .prod h5 {
+    text-align: center;
+    font-size: 1.3em;
+    padding: auto;
+    color: black;
+  }
+
+  .prod .preco p {
+    text-align: center;
+
+    font-size: 1em;
+    color: #000000;
+  }
+}
